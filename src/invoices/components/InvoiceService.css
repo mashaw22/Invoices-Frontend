@@ -1,0 +1,25 @@
+.invoice-service--mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 1.25em;
+    font-size: 0.75rem;
+}
+
+.invoice-service:last-child {
+    margin-bottom: 0;
+}
+.invoice-service--tablet {
+    display: none;
+}
+@media (min-width: 640px) {
+    .invoice-service--mobile {
+        display: none;
+    }
+    .invoice-service--tablet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

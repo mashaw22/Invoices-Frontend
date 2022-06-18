@@ -1,0 +1,20 @@
+.side-drawer {
+    position: fixed;
+    left: 0;
+    top: 4.5em;
+    z-index:100;
+    height: calc(100vh - 4.5em);
+    width: 38.5em;
+    background: #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+    padding: 3.5em;
+    overflow: auto scroll;
+}
+@media (min-width: 1440px) {
+    .side-drawer {
+        width: 44.93em;
+        top: 0;
+        left: 4.5em;
+        height: 100%;
+    }
+}

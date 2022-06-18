@@ -1,0 +1,36 @@
+span {
+    font-weight: 700;
+}
+
+.invoices-empty {
+    flex-direction: column;
+    margin: 4.9em;
+}
+
+.invoices-empty img {
+    margin-bottom: 2.5em;
+}
+
+.invoices-empty h2 {
+    font-size: 1.25rem;
+    letter-spacing: -0.63;
+    margin: 0 0 1em;
+}
+
+.invoices-empty p {
+    font-size: 0.75;
+    color: #888EB0;
+    margin: 0;
+}
+
+.invoices-list {
+    list-style: none;
+    flex-direction: column;
+    padding: 0;
+}
+.invoice-item {
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0C0E16;
+}

@@ -1,0 +1,75 @@
+.sub-nav__invoices,
+.sub-nav__go-back {
+    display: flex;
+    margin: 6.5em auto 1.25em;
+    max-width: 42em;
+    width: 87.5%;
+}
+
+.sub-nav__invoices {
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-nav__invoices h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+.sub-nav__invoices p {
+    font-size: 0.75rem;
+}
+
+.sub-nav__invoices-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions__new-button {
+    border-radius: 50px;
+}
+.new-button {
+    display: flex;
+    align-items: center;
+}
+.new-button__plus {
+    background-color: #ffffff;
+    width: 2em;
+    height: 2em;
+    border-radius: 24px;
+    margin: 0;
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-nav__go-back {
+    width: 5em;
+    cursor: pointer;
+    justify-content: flex-start;
+    width: 87.5%;
+    text-decoration: none;
+}
+.sub-nav__go-back img {
+    margin: 0 1.25em 0 0;
+    height: 100%;
+}
+.sub-nav__go-back p {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.sub-nav__go-back:hover {
+    color: #7E88C3;
+}
+@media (min-width: 640px) {
+    .sub-nav__invoices h2 {
+        font-size: 2.25rem;
+    }
+}
+@media (min-width: 1440px) {
+    .sub-nav__invoices,
+    .sub-nav__go-back {
+        margin-top: 4.5em;
+    }
+}

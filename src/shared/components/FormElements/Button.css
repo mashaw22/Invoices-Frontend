@@ -1,0 +1,61 @@
+.button {
+    font: inherit;
+    font-size: 0.75rem;
+    background-color: #7C5DFA;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em 1.25em;
+    border-radius: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #9277FF;
+}
+
+.button--new {
+    border-radius: 50px;
+    padding: 0.375em 1em 0.375em 0.375em;
+}
+.button--new p {
+    margin: 0;
+}
+
+.button--edit {
+    background-color: #F9FAFE;
+    color: #7E88C3;
+}
+.button--edit:hover,
+.button--edit:focus {
+    background-color: #DFE3FA;
+}
+
+.button--draft {
+    background-color: #373B53;
+    color: #888EB0;
+}
+.button--draft:hover,
+.button--draft:focus {
+    background-color: #0C0E16;
+}
+
+.button--delete {
+    background-color: #EC5757;
+}
+.button--delete:hover,
+.button--delete:focus {
+    background-color: #FF9797;
+}
+
+.button--add-item {
+    background-color: #F9FAFE;
+    color: #7E88C3;
+    width: 100%;
+    text-align: center;
+}
+.button--add-item:hover,
+.button--add-item:focus {
+    background-color: #DFE3FA;
+}

@@ -1,0 +1,27 @@
+.button-section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1.3125em 1.25em;
+    display: flex;
+    justify-content:flex-end;
+}
+.button-section a,
+.button-section button {
+    margin-right: .5em;
+}
+.button-section a:last-child,
+.button-section button:last-child {
+    margin:0;
+}
+@media (min-width: 768px){
+    .button-section {
+        width: 34em;
+    }
+}
+@media (min-width: 1440px) {
+    .button-section {
+        width: 40em;
+    }
+}

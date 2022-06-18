@@ -1,0 +1,38 @@
+
+.item__status {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    width: 8.66em;
+    padding: 0.8125em;
+    border-radius: 6px;
+}
+.item__status h3 {
+    font-size: 0.75rem;
+}
+.status__icon {
+    margin-right: 0.5em;
+}
+
+.paid__icon {
+    color: #33D69F;
+}
+.pending__icon {
+    color: #FF8F00;
+}
+.draft__icon {
+    color: #373B53;
+}
+
+.paid {
+    background-color: hsla(160, 67%, 52%, .06);
+    color: #33D69F;
+}
+.pending {
+    background-color: hsla(34, 100%, 50%, .06);
+    color: #FF8F00;
+}
+.draft {
+    background-color: hsla(231, 20%, 27%, .06);
+    color: #373B53;
+}

@@ -1,0 +1,45 @@
+.main-nav {
+    border: 2px solid magenta;
+    display: relative;
+}
+
+hr {
+    border: 1px #494E6E solid;
+    height: 70px;
+    margin: 0 1.25em;
+}
+img {
+    margin: 0;
+}
+.main-header__logo {
+    height: 70px;
+}
+.main-header__logo-background {
+    padding: 0;
+    height: 100%;
+}
+.main-header__logo-main {
+    position: absolute;
+    padding: 0;
+    top: 23px;
+    left: 22px;
+}
+.main-header__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1.25em;
+}
+.main-header__right-avatar {
+    width: 2em;
+    border-radius: 50%;
+}
+
+@media (min-width: 1440px) {
+    .main-header__logo-main,
+    .main-header__logo-background,
+    .main-header__right-light-mode,
+    .main-header__right-avatar {
+        transform: rotate(270deg);
+    }
+}

@@ -1,0 +1,23 @@
+.main-header {
+    position: fixed;
+    top: 0;
+    background-color: #373B53;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 101;
+}
+
+
+@media (min-width: 1440px) {
+    .main-header {
+        width: 100vh;
+        transform-origin: 0 100%;
+        transform: translateY(-100%) rotate(90deg);
+        max-height: 100vw;
+        border-radius: 1.25em 1.25em 0;
+    }
+}
